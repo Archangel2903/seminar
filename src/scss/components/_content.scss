@@ -37,8 +37,6 @@
 }
 
 .subtitle {
-  max-width: 570px;
-  margin: 0 auto;
   font-size: 1.333rem;
 }
 
@@ -47,7 +45,15 @@
 }
 
 .main-section-content {
+  &__info {
+    font-size: 1.111rem;
+  }
+  &__title {
+    font-size: 5.556rem;
+  }
+  &__text {
 
+  }
 }
 
 .about-seminar-section {
