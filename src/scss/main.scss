@@ -1,3 +1,16 @@
+/* Bootstrap */
+//require
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+//optional
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/buttons";
+
+/* Project styles */
 //partials
 @import 'partials/variables';
 @import 'partials/fonts';
@@ -7,18 +20,3 @@
 @import 'components/header';
 @import 'components/content';
 @import 'components/footer';
-
-/* Bootstrap */
-//require
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/mixins";
-//optional
-//@import "~bootstrap/scss/reboot";
-//@import "~bootstrap/scss/grid";
-//@import "~bootstrap/scss/type";
-//@import "~bootstrap/scss/utilities";
-//@import "~bootstrap/scss/buttons";
-
-/* Slick slider */
-//@import "~slick-carousel/slick/slick.css";

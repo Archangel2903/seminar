@@ -1,5 +1,17 @@
 $fonts-path: '../fonts/';
 
+// Roboto
+@font-face {
+  font-family: 'Roboto';
+  src: url('#{$fonts-path}Roboto-Bold.eot');
+  src: url('#{$fonts-path}Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}Roboto-Bold.woff2') format('woff2'),
+  url('#{$fonts-path}Roboto-Bold.woff') format('woff'),
+  url('#{$fonts-path}Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Roboto';
   src: url('#{$fonts-path}Roboto-Regular.eot');
@@ -8,5 +20,16 @@ $fonts-path: '../fonts/';
   url('#{$fonts-path}Roboto-Regular.woff') format('woff'),
   url('#{$fonts-path}Roboto-Regular.ttf') format('truetype');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('#{$fonts-path}Roboto-Light.eot');
+  src: url('#{$fonts-path}Roboto-Light.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}Roboto-Light.woff2') format('woff2'),
+  url('#{$fonts-path}Roboto-Light.woff') format('woff'),
+  url('#{$fonts-path}Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
   font-style: normal;
 }

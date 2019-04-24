@@ -2,7 +2,6 @@ import '../scss/main.scss';
 import $ from 'jquery';
 import 'bootstrap';
 import 'popper.js';
-import 'slick-carousel';
 
 $(window).on('load', function () {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
@@ -15,5 +14,7 @@ $(window).on('load', function () {
 });
 
 $(function () {
-
+    $('.section-bg').each(function () {
+        $(this).data('img-bg');
+    });
 });

@@ -35,6 +35,17 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  font-size: $default-font-size;
+}
+
+body {
+  font-weight: 300;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
   display: block;
 }
@@ -58,13 +69,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   border-width: 0;
-}
-
-html {
-  height: 100%;
-  -webkit-text-size-adjust: none;
-  -ms-text-size-adjust: none;
-  font-size: 14px;
 }
 
 input,
@@ -342,6 +346,10 @@ ul {
 
 .main-wrapper {
   overflow: hidden;
+}
+
+section {
+  position: relative;
 }
 
 .clearfix:after,
