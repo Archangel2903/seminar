@@ -3,9 +3,7 @@
 *************************************************/
 
 .section-bg {
-  &__img {
-
-  }
+  color: white;
 
   &:before {
     content: attr(data-bg);
@@ -14,7 +12,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: var(--bg-image);
+    background: var(--bg-image) no-repeat center;
+    background-size: cover;
     z-index: -1;
   }
 
@@ -25,9 +24,14 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, .25) 100%);
+    //background: linear-gradient(to top, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, .25) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
     z-index: -1;
   }
+}
+
+.scroll-down {
+
 }
 
 .title {
@@ -46,23 +50,33 @@
 
 .main-section-content {
   &__info {
+    font-weight: bold;
     font-size: 1.111rem;
+    line-height: 1.55;
+    letter-spacing: 2.5px;
   }
   &__title {
+
+    font-weight: bold;
     font-size: 5.556rem;
+    line-height: 1.15;
   }
   &__text {
-
+    font-weight: bold;
   }
 }
 
 .about-seminar-section {
-
+  padding: 90px 0;
+  background: #f0f0f0;
 }
 
 .about-seminar {
   &__head {
-
+    margin: 0 0 105px;
+    .title {
+      margin: 0 0 40px;
+    }
   }
 
   &__content {
@@ -71,8 +85,37 @@
 }
 
 .program-block {
-  &__info {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 
+  &:nth-child(even) {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+
+  &:not(:last-child) {
+    margin: 0 0 120px;
+  }
+
+  &__info {
+    width: 50%;
   }
 
   &__title {
@@ -88,7 +131,7 @@
   }
 
   &__img {
-
+    width: 50%;
   }
 }
 

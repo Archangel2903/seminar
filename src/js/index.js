@@ -17,4 +17,6 @@ $(function () {
     $('.section-bg').each(function () {
         $(this).data('img-bg');
     });
+
+    $('.main-section').height(window.innerHeight);
 });

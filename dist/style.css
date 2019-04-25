@@ -4213,9 +4213,16 @@ header {
   font-size: 2.333rem; }
 
 .subtitle {
-  max-width: 570px;
-  margin: 0 auto;
   font-size: 1.333rem; }
+
+.main-section {
+  background: var(--bg-image); }
+
+.main-section-content__info {
+  font-size: 1.111rem; }
+
+.main-section-content__title {
+  font-size: 5.556rem; }
 
 .day-program__list-item:before {
   content: '• '; }
