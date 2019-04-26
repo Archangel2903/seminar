@@ -14,9 +14,6 @@
     <!-- CONTENT -->
     <main class="content">
 
-        <!--https://docs.google.com/document/d/1nvSYBwK5CbqkQhhVz165u8yZy7Frk9EA_xU1fwKxHtY/edit#-->
-        <!--https://docs.google.com/document/d/1m7CpzHBT3ZT1eTNqlBn0oMGQnXF3zh8_46e6F26zv3c/edit-->
-
         <section class="main-section section-bg d-flex align-items-center justify-content-center" style="--bg-image: url('./img/section-bg_01.jpg');">
             <div class="container">
                 <div class="main-section-content text-center">
@@ -24,7 +21,8 @@
 
                     <h1 class="main-section-content__title title">КОРОЛЕВА</h1>
 
-                    <p class="main-section-content__text subtitle">Двухдневный женский семинар Алекса Мэя об интимной стороне отношений</p>
+                    <p class="main-section-content__text subtitle">Двухдневный женский семинар Алекса Мэя
+                        об интимной стороне отношений</p>
                 </div>
             </div>
 
@@ -34,7 +32,7 @@
         <section class="about-seminar-section">
             <div class="container">
                 <div class="about-seminar">
-                    <div class="about-seminar__head w-50 mx-auto text-center">
+                    <div class="about-seminar__head text-center">
                         <p class="title">О чем этот семинар?</p>
                         <p class="subtitle">Ты получишь проверенные тысячами женщин по всему миру секреты, приемы и техники, которые позволят тебе стать ЕДИНСТВЕННОЙ и самой
                             желанной женщиной в жизни любого мужчины.</p>
@@ -42,6 +40,10 @@
 
                     <div class="about-seminar__content">
                         <div class="program-block">
+                            <div class="program-block__media-wrap">
+                                <img src="<%= require('./img/program_01.jpg') %>" class="program-block__img" alt="" title="">
+                            </div>
+
                             <div class="program-block__info">
                                 <p class="program-block__title">День первый</p>
 
@@ -49,11 +51,13 @@
                                     настоящего контроля над мужским подсознанием и поведением, как в постели, так и вне её.</p>
                                 <a href="#more" class="program-block__button-more">Узнать больше</a>
                             </div>
-
-                            <img src="<%= require('./img/program_01.jpg') %>" class="program-block__img" alt="" title="">
                         </div>
 
                         <div class="program-block">
+                            <div class="program-block__media-wrap">
+                                <img src="<%= require('./img/program_02.jpg') %>" class="program-block__img" alt="" title="">
+                            </div>
+
                             <div class="program-block__info">
                                 <p class="program-block__title">День второй</p>
 
@@ -61,8 +65,6 @@
                                     действительно лучшей любовницей в жизни любого, даже самого искушенного мужчины.</p>
                                 <a href="#more" class="program-block__button-more">Узнать больше</a>
                             </div>
-
-                            <img src="<%= require('./img/program_02.jpg') %>" class="program-block__img" alt="" title="">
                         </div>
                     </div>
                 </div>
@@ -74,7 +76,7 @@
                 <p class="title text-center">День первый</p>
                 <p class="subtitle text-center">Суббота, 15 июня</p>
 
-                <div class="day-program offset-2">
+                <div class="day-program offset-md-2">
                     <div class="day-program__box">
                         <p class="day-program__caption">Взлом стереотипов</p>
 
@@ -167,7 +169,7 @@
                 <p class="title text-center">День второй</p>
                 <p class="subtitle text-center">Воскресенье, 16 июня</p>
 
-                <div class="day-program offset-2">
+                <div class="day-program offset-md-2">
                     <div class="day-program__box">
                         <p class="day-program__caption">Секреты сексуальной коммуникации</p>
 
@@ -387,7 +389,7 @@
 
                     <div class="support-contacts">
                         <div class="row">
-                            <div class="support-contacts__box col-4 text-center">
+                            <div class="support-contacts__box col-12 col-md-4 text-center">
                                 <svg>
                                     <use xlink:href="img/spritemap.svg#sprite-phone"></use>
                                 </svg>
@@ -398,7 +400,7 @@
                                 <p class="support-contacts__text"><a href="mailto:support@alex-may.com">support@alex-may.com</a></p>
                             </div>
 
-                            <div class="support-contacts__box col-4 text-center">
+                            <div class="support-contacts__box col-12 col-md-4 text-center">
                                 <svg>
                                     <use xlink:href="img/spritemap.svg#sprite-marker"></use>
                                 </svg>
@@ -408,7 +410,7 @@
                                 <p class="support-contacts__text">г. Москва</p>
                             </div>
 
-                            <div class="support-contacts__box col-4 text-center">
+                            <div class="support-contacts__box col-12 col-md-4 text-center">
                                 <svg>
                                     <use xlink:href="img/spritemap.svg#sprite-compass"></use>
                                 </svg>

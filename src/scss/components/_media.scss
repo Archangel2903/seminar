@@ -1,0 +1,92 @@
+/*************************************************
+********************** MEDIA *********************
+*************************************************/
+
+@media screen and (min-width: 576px) {
+  .main-section-content {
+    &__title {
+      font-size: 5.556rem;
+    }
+  }
+
+  .about-author {
+    &__img {
+      max-width: 560px;
+      max-height: 560px;
+    }
+  }
+
+  .guaranty {
+    padding: 60px;
+  }
+
+  .footer-content {
+    &__nav-link {
+      display: inline-block;
+
+      &:not(:first-child) {
+        &:before {
+          content: '|';
+          margin-right: 4px;
+          color: white;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .program-block {
+    &:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+
+    &__info {
+      width: 50%;
+      padding: 0 15px;
+    }
+
+    &__media-wrap {
+      width: 50%;
+      max-width: 460px;
+      height: 340px;
+    }
+  }
+
+  .about-author {
+    &__info {
+      width: 50%;
+      padding: 0 20px;
+    }
+
+    &__img {
+      width: 50%;
+      padding: 0 20px;
+    }
+  }
+
+  .support-contacts {
+    &__box {
+      &:not(:first-child) {
+        padding: 0;
+        border: 0;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .program-block {
+    &__info {
+      padding: 0 75px;
+    }
+  }
+
+  .reviews {
+    .slick-list {
+      padding: 0;
+    }
+  }
+}

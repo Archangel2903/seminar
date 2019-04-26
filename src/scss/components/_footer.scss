@@ -11,6 +11,8 @@ footer {
 
 .footer-content {
   &__logo {
+    width: 100%;
+    max-width: 350px;
     margin: 0 0 65px;
   }
 
@@ -31,18 +33,10 @@ footer {
   }
 
   &__nav-link {
+    display: block;
     color: #ff8562;
     font-size: .778rem;
     text-decoration: none !important;
-
-    &:not(:first-child) {
-      &:before {
-        content: '|';
-        margin-right: 4px;
-        color: white;
-        font-size: 16px;
-      }
-    }
 
     &:hover {
       color: white;

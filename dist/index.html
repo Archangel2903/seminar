@@ -14,19 +14,19 @@
     <!-- CONTENT -->
     <main class="content">
 
-        <!--https://docs.google.com/document/d/1nvSYBwK5CbqkQhhVz165u8yZy7Frk9EA_xU1fwKxHtY/edit#-->
-        <!--https://docs.google.com/document/d/1m7CpzHBT3ZT1eTNqlBn0oMGQnXF3zh8_46e6F26zv3c/edit-->
-
-        <section class="main-section section-bg" style="--bg-image: url('./img/section-bg_01.jpg');" data-bg-image="./img/section-bg_02.jpg">
+        <section class="main-section section-bg d-flex align-items-center justify-content-center" style="--bg-image: url('./img/section-bg_01.jpg');">
             <div class="container">
-                <div class="main-section-content">
+                <div class="main-section-content text-center">
                     <p class="main-section-content__info">РИГА | 18-19 МАЯ, 2019</p>
 
                     <h1 class="main-section-content__title title">КОРОЛЕВА</h1>
 
-                    <p class="main-section-content__text">Двухдневный женский семинар Алекса Мэя об интимной стороне отношений</p>
+                    <p class="main-section-content__text subtitle">Двухдневный женский семинар Алекса Мэя
+                        об интимной стороне отношений</p>
                 </div>
             </div>
+
+            <div class="scroll-down"></div>
         </section>
 
         <section class="about-seminar-section">
@@ -40,6 +40,10 @@
 
                     <div class="about-seminar__content">
                         <div class="program-block">
+                            <div class="program-block__media-wrap">
+                                <img src="img/program_01.jpg" class="program-block__img" alt="" title="">
+                            </div>
+
                             <div class="program-block__info">
                                 <p class="program-block__title">День первый</p>
 
@@ -47,11 +51,13 @@
                                     настоящего контроля над мужским подсознанием и поведением, как в постели, так и вне её.</p>
                                 <a href="#more" class="program-block__button-more">Узнать больше</a>
                             </div>
-
-                            <img src="img/program_01.jpg" class="program-block__img" alt="" title="">
                         </div>
 
                         <div class="program-block">
+                            <div class="program-block__media-wrap">
+                                <img src="img/program_02.jpg" class="program-block__img" alt="" title="">
+                            </div>
+
                             <div class="program-block__info">
                                 <p class="program-block__title">День второй</p>
 
@@ -59,8 +65,6 @@
                                     действительно лучшей любовницей в жизни любого, даже самого искушенного мужчины.</p>
                                 <a href="#more" class="program-block__button-more">Узнать больше</a>
                             </div>
-
-                            <img src="img/program_02.jpg" class="program-block__img" alt="" title="">
                         </div>
                     </div>
                 </div>
@@ -69,10 +73,10 @@
 
         <section class="day-section">
             <div class="container">
-                <p class="title">День первый</p>
-                <p class="subtitle">Суббота, 15 июня</p>
+                <p class="title text-center">День первый</p>
+                <p class="subtitle text-center">Суббота, 15 июня</p>
 
-                <div class="day-program">
+                <div class="day-program offset-md-2">
                     <div class="day-program__box">
                         <p class="day-program__caption">Взлом стереотипов</p>
 
@@ -160,12 +164,12 @@
             </div>
         </section>
 
-        <section class="day-section">
+        <section class="day-section" style="background-color: #ebebeb;">
             <div class="container">
-                <p class="title">День второй</p>
-                <p class="subtitle">Воскресенье, 16 июня</p>
+                <p class="title text-center">День второй</p>
+                <p class="subtitle text-center">Воскресенье, 16 июня</p>
 
-                <div class="day-program">
+                <div class="day-program offset-md-2">
                     <div class="day-program__box">
                         <p class="day-program__caption">Секреты сексуальной коммуникации</p>
 
@@ -267,7 +271,9 @@
             <div class="container">
                 <div class="about-author">
                     <div class="about-author__info">
-                        <p class="about-author__title title"><span class="about-author__subtitle"></span></p>
+                        <p class="about-author__title title">АЛЕКС МЭЙ <span class="about-author__subtitle">Автор программы</span></p>
+
+                        <hr class="about-author__separate">
 
                         <p class="about-author__text">Гендерный психолог, сексолог, международный эксперт в области секса и отношений из Нидерландов.</p>
 
@@ -281,28 +287,31 @@
                             Копенгагена, Осло, Москвы и Санкт-Петербурга.</p>
                     </div>
 
-                    <img src="" class="about-author__img" alt="" title="">
+                    <img src="img/author-img.jpg" class="about-author__img" alt="" title="">
                 </div>
             </div>
         </section>
 
         <section class="reviews-section">
             <div class="container">
-                <p class="title"></p>
+                <p class="title text-center">Отзывы</p>
 
-                <p class="subtitle"><i></i></p>
+                <p class="subtitle text-center"><i>По просьбам участниц отзывы опубликованы анонимно</i></p>
 
-                <div class="reviews">
+                <div class="reviews slick-slider">
                     <div class="reviews__box">
-                        <p class="reviews__text">Спасибо, Алекс! Сегодня попробовала часть техник и прикосновений на мужчине и я была в шоке от того как быстро он кончил! Он сказал что теперь его жизнь делится на до и после и почему я так раньше не делала! Алекс, я ТАК ТЕБЕ БЛАГОДАРНА!!!</p>
+                        <p class="reviews__text">Спасибо, Алекс! Сегодня попробовала часть техник и прикосновений на мужчине и я была в шоке от того как быстро он кончил! Он сказал
+                            что теперь его жизнь делится на до и после и почему я так раньше не делала! Алекс, я ТАК ТЕБЕ БЛАГОДАРНА!!!</p>
                     </div>
 
                     <div class="reviews__box">
-                        <p class="reviews__text">Всем привет! Семинар просто невероятно крут! Моя жизнь катилась под откос, все хорошо — работа увлечение, ребенок, но не было секса)) А теперь он есть и очень даже не плохой. Алекс, ты меня просто спас!</p>
+                        <p class="reviews__text">Всем привет! Семинар просто невероятно крут! Моя жизнь катилась под откос, все хорошо — работа увлечение, ребенок, но не было
+                            секса)) А теперь он есть и очень даже не плохой. Алекс, ты меня просто спас!</p>
                     </div>
 
                     <div class="reviews__box">
-                        <p class="reviews__text">Алекс, привет! Ты не просто обучаешь и объясняешь, ты ПРОБУЖДАЕШЬ!!! Я поражена!!! Ощутила невероятный подъем! Я рада, что теперь много больше могу дать моему мужу, что мы на порядок лучше понимаем и чувствуем друг друга.</p>
+                        <p class="reviews__text">Алекс, привет! Ты не просто обучаешь и объясняешь, ты ПРОБУЖДАЕШЬ!!! Я поражена!!! Ощутила невероятный подъем! Я рада, что теперь
+                            много больше могу дать моему мужу, что мы на порядок лучше понимаем и чувствуем друг друга.</p>
                     </div>
 
                     <div class="reviews__box">
@@ -310,7 +319,8 @@
                     </div>
 
                     <div class="reviews__box">
-                        <p class="reviews__text">Еще один «побочный эффект» от семинара — мужчины проявляют, мягко говоря, повышенный интерес. Они возбуждаются даже просто от того, что говорят со мной или просто сидят рядом. Не все, конечно. Но их стало значительно больше :)</p>
+                        <p class="reviews__text">Еще один «побочный эффект» от семинара — мужчины проявляют, мягко говоря, повышенный интерес. Они возбуждаются даже просто от того,
+                            что говорят со мной или просто сидят рядом. Не все, конечно. Но их стало значительно больше :)</p>
                     </div>
                 </div>
             </div>
@@ -318,12 +328,13 @@
 
         <section class="order-section">
             <div class="container">
-                <p class="title"></p>
-                <p class="subtitle"></p>
-
                 <div class="order-block">
                     <form action="" method="" name="" class="order-block__form">
-                        <p class="order-block__form-title">Двухдневный женский семинар «Королева», пакет GOLD</p>
+                        <p class="order-block__form-title">Двухдневный женский семинар “КОРОЛЕВА”
+                        </p>
+
+                        <p class="order-block__form-subtitle">Запроси наличие мест и узнай цену за участие,
+                            а также <strong>“скидки подругам”, для группы и “для пары”</strong></p>
 
                         <label class="order-block__form-row">
                             <span class="order-block__field-name">Имя</span>
@@ -348,25 +359,72 @@
             </div>
         </section>
 
-        <section class="guaranty-section section-bg" style="--bg-image: url('./img/section-bg_02.jpg');" data-bg-image="./img/section-bg_02.jpg">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eaque eveniet excepturi magnam non optio sapiente. Cumque ea eligendi esse et ex excepturi
-                incidunt minus nam perferendis placeat provident quis, quo quod ratione recusandae sapiente sequi sunt temporibus vel veritatis! Accusantium adipisci asperiores
-                beatae consequatur corporis delectus dolor doloribus eligendi enim et facilis fugiat ipsa ipsam labore maxime nulla odit pariatur, porro provident ratione sequi sit
-                vel voluptatem! Alias aliquid assumenda, debitis delectus deserunt eaque, esse est facere fuga harum incidunt laborum natus numquam pariatur porro similique vel.
-                Delectus, ea laborum numquam optio rerum voluptas? A ad aliquid aspernatur, at culpa cumque cupiditate debitis dicta dolor dolores doloribus facere fugit incidunt,
-                inventore ipsa iusto laborum laudantium minima molestiae neque nisi numquam obcaecati placeat quasi quis reiciendis repellat repellendus reprehenderit repudiandae
-                sapiente sint vitae voluptas voluptate. Ab accusamus ad adipisci beatae consequatur culpa delectus deleniti dicta et ex expedita fugiat illum ipsam iste modi neque
-                nihil nulla obcaecati pariatur perferendis porro, quam quasi qui quo quod quos repellat repudiandae similique sit tempora temporibus totam unde ut, vel veniam
-                veritatis, voluptas. Aspernatur aut hic laudantium officia praesentium! Adipisci dolore dolores fuga harum nihil, perspiciatis quia velit. Autem fugiat incidunt
-                laudantium molestias nobis odit officiis ullam. Ab adipisci architecto aut autem, doloribus eius est explicabo fuga nam nisi reiciendis repudiandae tempora unde
-                velit voluptate! Animi asperiores aspernatur assumenda consectetur consequatur consequuntur cumque cupiditate delectus dignissimos distinctio dolore dolorem
-                doloremque eius, error est et ipsam itaque, laudantium maiores necessitatibus nobis, numquam obcaecati optio pariatur possimus quas quibusdam reiciendis rem sed
-                tempora tenetur ut velit veritatis. At doloremque ea earum, eligendi esse eveniet, excepturi expedita fugiat incidunt libero maxime minus molestias mollitia
-                nesciunt nostrum officiis qui quisquam quo recusandae repellat sint sit sunt temporibus totam unde velit voluptatem voluptatibus. A adipisci consectetur iste rerum
-                unde?</p>
+        <section class="guaranty-section section-bg" style="--bg-image: url('./img/section-bg_02.jpg');">
+
+            <div class="container">
+                <div class="guaranty">
+                    <p class="guaranty__title">100% ГАРАНТИЯ ВОЗВРАТА</p>
+
+                    <p class="guaranty__text">Чтобы твое решение было легким и полностью защищенным, бронируя свое участие, ты также получаешь абсолютную и безусловную гарантию
+                        возврата!</p>
+
+                    <p class="guaranty__text">Это означает, что если во время семинара тебе хоть что-то не понравится, ты имеешь полное право в любой момент подойти к стойке
+                        организаторов и потребовать возместить стоимость оплаченного тобой участия.</p>
+
+                    <p class="guaranty__text">Иначе говоря, <a href="#">записываясь на программу прямо сейчас</a>, ты абсолютно ничем не рискуешь! Либо ты останешься довольна, либо
+                        получишь деньги обратно.</p>
+                </div>
+            </div>
+
+
         </section>
 
-        <section class="support-section"></section>
+        <section class="support-section">
+            <div class="container">
+                <div class="support">
+                    <div class="support__head">
+                        <p class="title">Остались вопросы?</p>
+                        <div class="subtitle">Смело задавай их в службу поддержки!</div>
+                    </div>
+
+                    <div class="support-contacts">
+                        <div class="row">
+                            <div class="support-contacts__box col-12 col-md-4 text-center">
+                                <svg>
+                                    <use xlink:href="img/spritemap.svg#sprite-phone"></use>
+                                </svg>
+
+                                <p class="support-contacts__caption">Служба поддержки</p>
+
+                                <p class="support-contacts__text"><a href="tel:+74951338759">+7 495 133-87-59</a></p>
+                                <p class="support-contacts__text"><a href="mailto:support@alex-may.com">support@alex-may.com</a></p>
+                            </div>
+
+                            <div class="support-contacts__box col-12 col-md-4 text-center">
+                                <svg>
+                                    <use xlink:href="img/spritemap.svg#sprite-marker"></use>
+                                </svg>
+
+                                <p class="support-contacts__caption">Место проведения</p>
+
+                                <p class="support-contacts__text">г. Москва</p>
+                            </div>
+
+                            <div class="support-contacts__box col-12 col-md-4 text-center">
+                                <svg>
+                                    <use xlink:href="img/spritemap.svg#sprite-compass"></use>
+                                </svg>
+
+                                <p class="support-contacts__caption">Как добраться?</p>
+
+                                <p class="support-contacts__text">Ты получишь подробные инструкции
+                                    сразу после оплаты своего участия</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!--<svg>
             <use xlink:href="img/spritemap.svg#sprite-loader"></use>
@@ -376,7 +434,25 @@
 
     <!-- FOOTER -->
     <footer>
-        <img src="img/logo2.png" alt="logo" title="">
+        <div class="container">
+            <div class="footer-content">
+                <img src="img/logo2.png" class="footer-content__logo" alt="logo" title="">
+
+                <div class="footer-content__text-wrap">
+                    <p class="footer-content__copyright">© Алекс Мэй. Все права защищены.</p>
+
+                    <nav class="footer-content__nav">
+                        <a href="#" class="footer-content__nav-link">Служба поддержки</a>
+                        <a href="#" class="footer-content__nav-link">Политика приватности</a>
+                        <a href="#" class="footer-content__nav-link">Пользовательское соглашение</a>
+                    </nav>
+
+                    <p class="footer-content__disclaimer">Внимание! Cайт содержит информацию для взрослых.
+                        Лицам, не достигшим совершеннолетия, просмотр запрещен.
+                        Закройте страницу, если вам меньше 18 лет!</p>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- FOOTER END -->
 </div>
