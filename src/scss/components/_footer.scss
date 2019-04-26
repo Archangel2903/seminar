@@ -2,4 +2,54 @@
 ********************* FOOTER *********************
 *************************************************/
 
-footer {}
+footer {
+  padding: 85px 0;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.footer-content {
+  &__logo {
+    margin: 0 0 65px;
+  }
+
+  &__text-wrap {
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: .7;
+    font-weight: 400;
+    font-size: .778rem;
+  }
+
+  &__copyright {
+    margin: 0 0 10px;
+  }
+
+  &__nav {
+    margin: 0 0 30px;
+  }
+
+  &__nav-link {
+    color: #ff8562;
+    font-size: .778rem;
+    text-decoration: none !important;
+
+    &:not(:first-child) {
+      &:before {
+        content: '|';
+        margin-right: 4px;
+        color: white;
+        font-size: 16px;
+      }
+    }
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  &__disclaimer {
+    white-space: pre-line;
+  }
+}
