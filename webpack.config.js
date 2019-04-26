@@ -12,7 +12,8 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
-        port: 9000
+        port: 9000,
+        historyApiFallback: true
     },
     module: {
         rules: [
@@ -62,6 +63,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: 'src/index.html',
             filename: "index.html"
+        }),
+        new HtmlWebpackPlugin({
+            template: 'src/male-seminar.html',
+            filename: "male-seminar.html"
         }),
         new SVGSpritemapPlugin("src/img/icon/*.svg", {
             output: {

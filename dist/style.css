@@ -4570,11 +4570,11 @@ header {
   .section-bg:after {
     content: '';
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
     z-index: -1; }
 
 .scroll-down {
@@ -4624,7 +4624,8 @@ header {
 .main-section-content__title {
   font-weight: bold;
   font-size: 3rem;
-  line-height: 1.15; }
+  line-height: 1.15;
+  text-transform: uppercase; }
 
 .main-section-content__text {
   font-weight: 300;
@@ -4636,10 +4637,11 @@ header {
   background: #f0f0f0; }
 
 .about-seminar__head {
-  max-width: 560px;
   margin: 0 auto 105px; }
   .about-seminar__head .title, .about-seminar__head .program-block__title, .about-seminar__head .day-program__caption, .about-seminar__head .guaranty__title {
     margin: 0 0 40px; }
+  .about-seminar__head .subtitle {
+    font-size: 1rem; }
 
 .program-block {
   display: flex;
@@ -4707,8 +4709,10 @@ header {
       position: absolute;
       top: 0;
       left: 7px; }
-    .day-program__box:last-child:after {
-      display: none; }
+    .day-program__box:last-child {
+      padding: 0 0 0 56px; }
+      .day-program__box:last-child:after {
+        display: none; }
   .day-program__caption {
     margin-bottom: 30px;
     font-size: 1.444rem; }
